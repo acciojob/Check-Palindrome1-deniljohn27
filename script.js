@@ -1,9 +1,10 @@
 // complete the given function
 
 function palindrome(str){
-	let i=0,j=str.length-1;
+	let str1=str.toLowerCase();
+	let i=0,j=str1.length-1;
 	while(i<j){
-		if(str[i]!=str[j]){
+		if(str1[i]!=str1[j]){
 			return false;
 		}
 		i++;

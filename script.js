@@ -10,7 +10,7 @@ function palindrome(string){
 		i++;
 		j--;
 	}
-	retrun true;
+	return true;
 	    // find the length of a string
     // const len = string.length;
 

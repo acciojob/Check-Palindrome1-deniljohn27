@@ -4,17 +4,17 @@ function palindrome(string){
 	let str1=str;
 	let i=0,j=str1.length-1;
 	while(i<j){
-		if(str1[i]!=str1[j]){
+		if(str1[i]!==str1[j]){
 			return false;
 		}
 		i++;
 		j--;
 	}
 	return true;
-	    // find the length of a string
-    // const len = string.length;
+	    //find the length of a string
+ //    const len = string.length;
 
-    // loop through half of the string
+ //   // loop through half of the string
  //    for (let i = 0; i <= len / 2; i++) {
 
  //        // check if first and last string are same
